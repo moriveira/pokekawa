@@ -1,0 +1,179 @@
+
+.pokekawa {
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50;
+    font-style: normal;
+    margin-left: 300px;
+    margin-right: 300px;
+    max-width: 1600px;
+    background-color: rgb(39, 38, 36);
+    margin-top: -20px;
+    border-radius: 10px;
+}
+
+.pokekawa ul li {
+    display: inline-flex;
+    color: antiquewhite;
+}
+
+.pokekawa h3 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 120px;
+    margin-right: 50px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 1s ease;
+}
+
+.pokekawa h3:hover {
+    border-color: antiquewhite;
+    cursor: pointer;
+}
+
+.pokekawa a img {
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+li img {
+    margin-top: -40px;
+    position: absolute;
+}
+
+.pokekawa h2 {
+    margin-left: 870px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 1s ease;
+    cursor: pointer;
+}
+
+.pokekawa h2:hover {
+    border-color: antiquewhite;
+}
+
+.descubra {
+    display: flex;
+    justify-content: center;
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 80px;
+    text-shadow: 0.15em 0.15em 0.05em #ffffff;
+    color: rgb(39, 38, 36);
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12, .caixa13, .caixa14, .caixa15, .caixa16, .caixa17 {
+    display: inline-block;
+    margin: 10px;
+    transition: all 400ms;
+}
+
+.caixa1 img, .caixa2 img, .caixa3 img, .caixa4 img, .caixa5 img, .caixa6 img, .caixa7 img, .caixa8 img, .caixa9 img, .caixa10 img, .caixa11 img, .caixa12 img, .caixa13 img, .caixa14 img, .caixa15 img, .caixa16 img, .caixa17 img {
+    border-radius: 13px;
+    display: inline-block;
+    filter: brightness(50%);
+    transition: all 400ms;
+}
+
+section {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.caixa1 p, .caixa2 p, .caixa3 p, .caixa4 p, .caixa5 p, .caixa6 p, .caixa7 p, .caixa8 p, .caixa9 p, .caixa10 p, .caixa11 p, .caixa12 p, .caixa13 p, .caixa14 p, .caixa15 p, .caixa16 p, .caixa17 p {
+    font-family: "Titan One", sans-serif;
+    font-size: 0px;
+    transition: all 400ms;
+    display: flex;
+    justify-content: center;
+}
+
+.caixa1:hover p, .caixa2:hover p, .caixa3:hover p, .caixa4:hover p, .caixa5:hover p, .caixa6:hover p, .caixa7:hover p, .caixa8:hover p, .caixa9:hover p, .caixa10:hover p, .caixa11:hover p, .caixa12:hover p, .caixa13:hover p, .caixa14:hover p, .caixa15:hover p, .caixa16:hover p, .caixa17:hover p {
+    font-size: 27px;
+    transition: all 400ms;
+    filter: brightness(100%);
+}
+
+.caixa1:hover, .caixa2:hover, .caixa3:hover, .caixa4:hover, .caixa5:hover, .caixa6:hover, .caixa7:hover, .caixa8:hover, .caixa9:hover, .caixa10:hover, .caixa11:hover, .caixa12:hover, .caixa13:hover, .caixa14:hover, .caixa15:hover, .caixa16:hover, .caixa17:hover {
+    background-color: rgb(134, 134, 184);
+    transition: all 400ms;
+    padding-bottom: 10px;
+    filter: brightness(100%);
+    border-radius: 20px;
+}
+
+.caixa1:hover img, .caixa2:hover img, .caixa3:hover img, .caixa4:hover img, .caixa5:hover img, .caixa6:hover img, .caixa7:hover img, .caixa8:hover img, .caixa9:hover img, .caixa10:hover img, .caixa11:hover img, .caixa12:hover img, .caixa13:hover img, .caixa14:hover img, .caixa15:hover img, .caixa16:hover img, .caixa17:hover img {
+    filter: brightness(100%);
+}
+
+.caixa2:hover{
+    background-color: rgb(86, 86, 169);
+}
+
+.caixa4:hover{
+    background-color: rgb(68, 68, 69);
+}
+
+.caixa4:hover p {
+    color: rgb(138, 138, 136);
+}
+
+.caixa5:hover{
+    background-color: rgb(114, 73, 111);
+}
+
+.caixa6:hover{
+    background-color: rgb(216, 154, 55);
+}
+
+.caixa7:hover{
+    background-color: rgb(71, 113, 168);
+}
+
+.caixa8:hover{
+    background-color: rgb(54, 58, 137);
+}
+
+.caixa9:hover{
+    background-color: rgb(87, 87, 93);
+}
+
+.caixa10:hover{
+    background-color: rgb(224, 211, 166);
+}
+
+.caixa11:hover{
+    background-color: rgb(154, 187, 133);
+}
+
+.caixa12:hover{
+    background-color: rgb(99, 194, 130);
+}
+
+.caixa13:hover{
+    background-color: rgb(210, 168, 168);
+}
+
+.caixa14:hover{
+    background-color: rgb(131, 131, 131);
+}
+
+.caixa15:hover{
+    background-color: rgb(206, 97, 97);
+}
+
+.caixa16:hover{
+    background-color: rgb(143, 37, 136);
+}
+
+.caixa17:hover{
+    background-color: rgb(111, 152, 125);
+}
+
+.caixa16 {
+    margin-left: 500px;
+}
